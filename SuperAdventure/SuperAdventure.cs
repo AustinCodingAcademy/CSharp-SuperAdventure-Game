@@ -21,5 +21,10 @@ namespace SuperAdventure
         {
             lblGold.Text = "123";
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            label5.Text = "Hello World!";
+        }
     }
 }
