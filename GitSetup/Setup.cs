@@ -8,6 +8,6 @@ namespace GitSetup
 {
     public class Setup
     {
-        //Hello!
+        //Hello World!
     }
 }
