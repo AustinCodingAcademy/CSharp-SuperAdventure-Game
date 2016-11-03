@@ -1,6 +1,6 @@
 ﻿namespace SuperAdventure
 {
-    partial class SuperAdventure
+    partial class Form1
     {
         /// <summary>
         /// Required designer variable.
@@ -119,9 +119,8 @@
             this.button1.TabIndex = 8;
             this.button1.Text = "Click Me";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // SuperAdventure
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -136,9 +135,8 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Location = new System.Drawing.Point(18, 100);
-            this.Name = "SuperAdventure";
+            this.Name = "Form1";
             this.Text = "My Game";
-            this.Load += new System.EventHandler(this.SuperAdventure_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
