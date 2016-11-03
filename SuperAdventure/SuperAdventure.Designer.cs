@@ -37,6 +37,8 @@
             this.lblExperience = new System.Windows.Forms.Label();
             this.lblLevel = new System.Windows.Forms.Label();
             this.btnTest = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -117,11 +119,32 @@
             this.btnTest.UseVisualStyleBackColor = true;
             this.btnTest.Click += new System.EventHandler(this.btnTest_Click);
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(0, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(35, 13);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "label5";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(165, 239);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(35, 13);
+            this.label6.TabIndex = 10;
+            this.label6.Text = "label6";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
+            // 
             // SuperAdventure
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(719, 652);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.btnTest);
             this.Controls.Add(this.lblLevel);
             this.Controls.Add(this.lblExperience);
@@ -149,6 +172,8 @@
         private System.Windows.Forms.Label lblExperience;
         private System.Windows.Forms.Label lblLevel;
         private System.Windows.Forms.Button btnTest;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
     }
 }
 
