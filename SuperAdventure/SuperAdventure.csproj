@@ -83,6 +83,7 @@
     <ProjectReference Include="..\Engine\Engine.csproj">
       <Project>{230dcaf3-c706-4b7c-8be6-d9e968e58ad6}</Project>
       <Name>Engine</Name>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
