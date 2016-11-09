@@ -6,8 +6,15 @@ using System.Threading.Tasks;
 
 namespace Engine
 {
-    class Location : Item
+    public class Location : Item
     {
         public string Description { get; set; }
+
+        public Location(int id, string name, string description)
+        {
+            ID = id;
+            Name = name;
+            Description = description;
+        }
     }
 }
