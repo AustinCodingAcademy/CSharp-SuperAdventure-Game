@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace Engine
 {
-    class HealingPostion
+   public class HealingPostion : Item
     {
+        public int AmountToHeal { get; set; }
+
+        public HealingPostion(int id, string name, string namePlural, int amountToHeal) : base(id, name, namePlural)
+        {
+            AmountToHeal = amountToHeal;
+        }
     }
 }

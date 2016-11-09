@@ -15,6 +15,10 @@ namespace SuperAdventure
         public SuperAdventure()
         {
             InitializeComponent();
+
+            Location location = new Location(1, "home", "This Is Your House");
+
+            Quest quest = new Quest();
         }
 
         private void btnTest_Click(object sender, EventArgs e)
