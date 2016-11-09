@@ -27,7 +27,8 @@ namespace SuperAdventure
 
             _player = new Player(10, 10, 20, 0, 1);
 
-            /*_player.CurrentHitPoints = 10;
+            /*
+            _player.CurrentHitPoints = 10;
             _player.MaximumHitPoints = 10;
             _player.Gold = 20;
             _player.ExperiencePoints = 0;
@@ -39,6 +40,19 @@ namespace SuperAdventure
             lblGold.Text = _player.Gold.ToString();
             lblExperience.Text = _player.ExperiencePoints.ToString();
             lblLevel.Text = _player.Level.ToString();
+
+            Location test1 = new Location(1, "Your House",
+                "This is your house");
+
+            Location test2 = new Location(1, "Your House",
+                "This is your house", null, null, null);
+
+
+            //Demo
+            Item item = new Item(1, "key", "first key");
+            Quest quest1 = new Quest(1, "", "", 100, 100);
+
+            Location test3 = new Engine.Location(1, "", "", item, quest1, null);
 
 
         }
