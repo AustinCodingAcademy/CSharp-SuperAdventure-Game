@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="HealingPotion.cs" />
+    <Compile Include="InventoryItem.cs" />
     <Compile Include="item.cs" />
     <Compile Include="LivingCreature.cs" />
     <Compile Include="Location.cs" />
