@@ -8,8 +8,7 @@ namespace Engine
 {
     public class Quest
     {
-        //This next line could be a problem later (reference "SuperAdventure Setting Properties With A Class Constructor" video)
-        private int id;
+        public int id;
 
         public int ID { get; set; }
         public string Name { get; set; }
@@ -19,6 +18,8 @@ namespace Engine
 
         public Item RewardItem { get; set; }
 
+        public List<QuestCompletionItem> QuestCompletionItems { get; set; }
+
         public Quest(int ID, string name, string description, int rewardExperiencePoints, int rewardGold)
         {
             ID = id;
@@ -26,6 +27,8 @@ namespace Engine
             Description = description;
             RewardExperiencePoints = rewardExperiencePoints;
             RewardGold = rewardGold;
+
+            QuestCompletionItems = new List<QuestCompletionItem>();
         }
 
     }
