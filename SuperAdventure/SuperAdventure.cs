@@ -40,6 +40,20 @@ namespace SuperAdventure
             lblExperience.Text = _player.ExperiencePoints.ToString();
             lblLevel.Text = _player.Level.ToString();
 
+            Location test1 = new Location(1, "Your house",
+                "This is your house");
+
+            Location test2 = new Location(1, "Your house",
+                "This is your house", null, null, null);
+
+            //Demo Purposes
+            Item item = new Item(1, "key", "first key");
+            Quest quest1 = new Quest(1, "", "". 100, 100); 
+
+            Location test3 = new Location(1, "", "", item, quest1, null);
+
+
+
         }
 
         private void lblGold_Click(object sender, EventArgs e)
