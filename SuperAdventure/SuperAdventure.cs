@@ -16,9 +16,16 @@ namespace SuperAdventure
         {
             InitializeComponent();
 
-            Location location = new Location(1, "home", "This Is Your House");
+            Engine.Location location = new Engine.Location(1, "home", "This Is Your House");
 
-            Quest quest = new Quest();
+
+
+
+            _player = new Engine.Player(10, 10, 20, 0, 1);
+
+
+
+
         }
 
         private void btnTest_Click(object sender, EventArgs e)
