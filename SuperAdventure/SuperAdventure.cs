@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Engine;
 
 namespace SuperAdventure
 {
@@ -23,12 +24,18 @@ namespace SuperAdventure
 
             _player = new Engine.Player(10, 10, 20, 0, 1);
 
+            Location test1 = new Engine.Location(1, "your house", "where you live");
+
+            Item item = new Item(1, "key", "first key");
+            Quest quest1 = new Quest(1, "", "", 100, 100);
+            Location test3 = new Engine.Location(1, "", "", item, quest1, null);
+
 
 
 
         }
 
-        private void btnTest_Click(object sender, EventArgs e)
+     /*   private void btnTest_Click(object sender, EventArgs e)
         {
             lblGold.Text = "123";
         }
@@ -47,5 +54,6 @@ namespace SuperAdventure
         {
             label5.Text = "Hello World";
         }
+        */
     }
 }
