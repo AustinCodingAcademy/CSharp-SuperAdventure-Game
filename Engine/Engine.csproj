@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{230DCAF3-C706-4B7C-8BE6-D9E968E58AD6}</ProjectGuid>
+    <ProjectGuid>{8346A659-668D-4269-851A-3557D0639835}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Engine</RootNamespace>
@@ -40,7 +40,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HealingPotion.cs" />
+    <Compile Include="InventoryItem.cs" />
+    <Compile Include="Item.cs" />
+    <Compile Include="LivingCreature.cs" />
+    <Compile Include="Location.cs" />
+    <Compile Include="LootItem.cs" />
+    <Compile Include="Monster.cs" />
+    <Compile Include="NumberAssigner.cs" />
+    <Compile Include="Player.cs" />
+    <Compile Include="PlayerQuest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Quest.cs" />
+    <Compile Include="QuestCompletionItem.cs" />
+    <Compile Include="Weapon.cs" />
+    <Compile Include="World.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
