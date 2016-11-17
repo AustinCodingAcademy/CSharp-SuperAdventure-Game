@@ -14,6 +14,8 @@ namespace Engine
         public int RewardsExperiencePoints { get; set; }
         public int RewardGold { get; set; }
 
+        public List<LootItem> LootTable { get; set; }
+
         public Monster(int id, string name, int maximumDamage, int rewardsExperiencePoints, int rewardGold, int currentHitPoints, int maximumHitPoints)    
             : base (currentHitPoints, maximumHitPoints)
         {
@@ -22,6 +24,8 @@ namespace Engine
             MaximumDamage = maximumDamage;
             RewardsExperiencePoints = rewardsExperiencePoints;
             RewardGold = rewardGold;
+
+            LootTable = new List<LootItem>();
         
         }
     }

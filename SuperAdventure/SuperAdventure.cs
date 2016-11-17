@@ -17,14 +17,14 @@ namespace SuperAdventure
         {
             InitializeComponent();
 
-            Engine.Location location = new Engine.Location(1, "home", "This Is Your House");
+            Engine.Location location = new Engine.Location(1, "home", "This Is Your House", null);
 
 
 
 
             _player = new Engine.Player(10, 10, 20, 0, 1);
 
-            Location test1 = new Engine.Location(1, "your house", "where you live");
+            Location test1 = new Engine.Location(1, "your house", "where you live", null);
 
             Item item = new Item(1, "key", "first key");
             Quest quest1 = new Quest(1, "", "", 100, 100);

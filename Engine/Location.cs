@@ -22,10 +22,10 @@ namespace Engine
 
 
         public Location(int id, string name, string description,
-            Item itemRequiredToEnter,
+            Item itemRequiredToEnter = null,
             Quest questAvaliableHere = null,
             Monster monsterLivingHere = null
-)
+                                                )
         {
             ID = id;
             Name = name;
