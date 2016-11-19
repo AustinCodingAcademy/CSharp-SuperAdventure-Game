@@ -42,6 +42,16 @@ namespace SuperAdventure
             lblExperience = _player.ExperiencePoints.ToString();
             lblLevel.Text = _player.Level.ToString();
 
+            Location test1 = new Engine.Location(1, "Your House", "This is your house",);
+            Location test2 = new Engine.Location(1, "Your House",
+                "This is your house", null, null, null);
+
+            //Demo Purposes
+            Item item = new Item(1, "key", "first key");
+            Quest quest1 = new Quest(1, "", "", 100, 100);
+
+            Location test3 = new Engine.Location(1, "", "", item, null, null);
+
         }
 
         private void btnTest_Click(object sender, EventArgs e)
