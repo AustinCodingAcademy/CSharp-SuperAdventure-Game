@@ -15,6 +15,18 @@ namespace SuperAdventure
         public SuperAdventure()
         {
             InitializeComponent();
+
+            location location = new location(1, "Home","This is your house");
+            location.ID = 1;
+            location.Name = "Home";
+            location.Description = "This is your house";
+
+            location test1 = new location(1, "Your House", 
+                "This is your house");
+            location test2 = new location(1, "Your House",
+                "This is your house", null, null, null);
+
+
         }
 
         private void btnTest_Click(object sender, EventArgs e)

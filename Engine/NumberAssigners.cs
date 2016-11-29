@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GitSetup
+namespace Engine
 {
-    public class Setup
+    public class NumberAssigners
     {
-        //Hello World!
     }
 }
