@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GitSetup
+namespace ClassLibrary2
 {
-    public class Setup
+    public class Class1
     {
-        //Hello World!
     }
 }
